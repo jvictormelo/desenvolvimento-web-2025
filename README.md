@@ -1,43 +1,27 @@
 # Amor em Patinhas - site de gestão de Banho e Tosa
 
 ## 1) Problema
-<!-- Escreva o problema sem falar de telas/tecnologias.
-     Responda: Quem sofre? Onde? O que atrapalha? Por que isso importa?
-     EXEMPLO: Em aulas práticas, alunos esperam muito para serem atendidos.
-     Há filas confusas e frustração. O professor não vê ordem nem tempo de espera.
-     Objetivo inicial: organizar a fila para reduzir a espera e garantir justiça. -->
-hoje em dia os [clientes] e o [gestor] perdem muito tempo para agendar e organizar os serviços, em mensagens no whatsapp há muito tempo de espera entre o [cliente] e o [gestor]. O [gestor] demora para verificar os planos e o calendario para novos agendamentos, O [cliente] tem dificuldade em agendar novos serviços pelo tempo de espera.
-Isso causa frustação por parte do [gestor] não conseguir organizar melhor seu caléndario e desistência por parte do [cliente] por falta de resposta.
+
+hoje em dia os clientes e o gestor perdem muito tempo para agendar e organizar os serviços, em mensagens no whatsapp há muito tempo de espera entre o cliente e o gestor. O gestor demora para verificar os planos e o calendario para novos agendamentos, O cliente tem dificuldade em agendar novos serviços pelo tempo de espera.
+Isso causa frustação por parte do gestor não conseguir organizar melhor seu caléndario e desistência por parte do cliente por falta de resposta.
 No início, o foco será organizar a gestão do banho e tosa com o objetivo de melhorar o sistema de agendamentos e planos.
 
 ## 2) Atores e Decisores (quem usa / quem decide)
 
-Usuários principais: [clientes de petshop]
-Decisores/Apoiadores: [Gestores de petshop]
+- Usuários principais: [clientes de petshop]
+- Decisores/Apoiadores: [Gestores de petshop]
 
 ## 3) Casos de uso (de forma simples)
-<!-- Formato "Ator: ações que pode fazer".
-     DICA: Use "Manter (inserir, mostrar, editar, remover)" quando for CRUD.
-     EXEMPLO:
-     Todos: Logar/deslogar do sistema; Manter dados cadastrais
-     Professor: Manter (inserir, mostrar, editar, remover) todos os chamados
-     Aluno: Manter (inserir, mostrar, editar, remover) seus chamados -->
-Todos: [Logar/deslogar; Manter dados cadastrais]  
-Gestor: Manter (inserir, mostrar, editar, remover) serviços (Banho, Tosa e planos(semanais e mensais))
-Clientes: Manter (inserir, mostrar, editar, remover) seus dados cadastrais
+
+- Todos: [Logar/deslogar; Manter dados cadastrais]  
+- Gestor: Manter - (inserir, mostrar, editar, remover) serviços (Banho, Tosa e planos(semanais e mensais)), Controle de Clientes - Manter (inserir, mostrar, editar, remover) e de Agendamento de  serviços - Manter - (inserir, mostrar, editar, remover)
+- Clientes: Manter - (inserir, mostrar, editar, remover) seus dados cadastrais
 
 ## 4) Limites e suposições
-<!-- Simples assim:
-     - Limites = regras/prazos/obrigações que você não controla.
-     - Suposições = coisas que você espera ter e podem falhar.
-     - Plano B = como você segue com a 1ª fatia se algo falhar.
-     EXEMPLO:
-     Limites: entrega final até o fim da disciplina (ex.: 2025-11-30); rodar no navegador; sem serviços pagos.
-     Suposições: internet no laboratório; navegador atualizado; acesso ao GitHub; 10 min para teste rápido.
-     Plano B: sem internet → rodar local e salvar em arquivo/LocalStorage; sem tempo do professor → testar com 3 colegas. -->
-Limites: [prazo final], [regras/tecnologias obrigatórias], [restrições]  
-Suposições: [internet/navegador/GitHub/tempo de teste]  
-Plano B: [como continua entregando a 1ª fatia se algo falhar]
+
+- Limites: entrega final até o fim da disciplina (18-12-2025); rodar no navegador; sem serviços pagos. 
+- Suposições: internet no laboratório; navegador atualizado; acesso ao GitHub; 10 min para teste rápido.
+- Plano B: sem internet → rodar local e salvar em arquivo/LocalStorage; testar com 3 colegas
 
 ## 5) Hipóteses + validação
 <!-- Preencha as duas frases abaixo. Simples e direto.
