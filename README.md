@@ -44,17 +44,17 @@ No início, o foco será organizar a gestão do banho e tosa com o objetivo de m
      Inclui login simples, criar chamado, listar em ordem.
      Critérios de aceite (objetivos): criar → aparece na lista com horário; encerrar → some ou marca "fechado". -->
 **Fluxo principal (curto):**  
-- 1) Cliente realiza seu cadastro/login
-- 2) Clica em "Agendar serviço"
-- 3) Sistema mostra os serviços disponiveis 
-- 4) Cliente escolhe o serviço que deseja
-- 5) Sistema mostra os dias e horários disponiveis
-- 6) Cliente escolhe a data e horário que deseja
-- 7) O sistema mostra a data e horário e confirma a ação
-- 8) Cliente tem a opção de voltar ao home, escolher mais serviços e adicionar ao seu carrinho ou finalizar o carrinho e ir para a pagina de compras
+ 1) Cliente realiza seu cadastro/login
+ 2) Clica em "Agendar serviço"
+ 3) Sistema mostra os serviços disponiveis 
+ 4) Cliente escolhe o serviço que deseja
+ 5) Sistema mostra os dias e horários disponiveis
+ 6) Cliente escolhe a data e horário que deseja
+ 7) O sistema mostra a data e horário e confirma a ação
+ 8) Cliente tem a opção de voltar ao home, escolher mais serviços e adicionar ao seu carrinho ou finalizar o carrinho e ir para a pagina de compras
 
 **Primeira fatia vertical (escopo mínimo):**  
-Inclui: [uma tela], [uma ação principal], [salvar], [mostrar algo]  
+Inclui: uma tela para escolha de serviços, escolher o plano desejado, armazenar o serviço no carrinho, mostrar o Serviço escolhido  
 Critérios de aceite:
 - [Condição 1 bem objetiva]
 - [Condição 2 bem objetiva]
@@ -74,18 +74,18 @@ Critérios de aceite:
 <!-- Liste apenas o que você REALMENTE pretende usar agora. -->
 
 ### 8.1 Navegador
-**Navegador:** [HTML/CSS/JS | React/Vue/Bootstrap/etc., se houver]  
-**Armazenamento local (se usar):** [LocalStorage/IndexedDB/—]  
-**Hospedagem:** [GitHub Pages/—]
+**Navegador:** HTML/CSS/JS/Bootstrap  
+**Armazenamento local (se usar):**  
+**Hospedagem:** 
 
 ### 8.2 Front-end (servidor de aplicação, se existir)
-**Front-end (servidor):** [ex.: Next.js/React/—]  
-**Hospedagem:** [ex.: Vercel/—]
+**Front-end (servidor):** React
+**Hospedagem:** GitHub Pages
 
 ### 8.3 Back-end (API/servidor, se existir)
-**Back-end (API):** [ex.: FastAPI/Express/PHP/Laravel/Spring/—]  
-**Banco de dados:** [ex.: SQLite/Postgres/MySQL/MongoDB/—]  
-**Deploy do back-end:** [ex.: Render/Railway/—]
+**Back-end (API):** JavaScript com Express
+**Banco de dados:** MySql ou PostgreSQL
+**Deploy do back-end:** Estudar onde irei fazer
 
 ## 9) Plano de Dados (Dia 0) — somente itens 1–3
 <!-- Defina só o essencial para criar o banco depois. -->
