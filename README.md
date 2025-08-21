@@ -44,7 +44,14 @@ No início, o foco será organizar a gestão do banho e tosa com o objetivo de m
      Inclui login simples, criar chamado, listar em ordem.
      Critérios de aceite (objetivos): criar → aparece na lista com horário; encerrar → some ou marca "fechado". -->
 **Fluxo principal (curto):**  
-1) [entrada do usuário] → 2) [processo] → 3) [salvar algo] → 4) [mostrar resultado]
+- 1) Cliente realiza seu cadastro/login
+- 2) Clica em "Agendar serviço"
+- 3) Sistema mostra os serviços disponiveis 
+- 4) Cliente escolhe o serviço que deseja
+- 5) Sistema mostra os dias e horários disponiveis
+- 6) Cliente escolhe a data e horário que deseja
+- 7) O sistema mostra a data e horário e confirma a ação
+- 8) Cliente tem a opção de voltar ao home, escolher mais serviços e adicionar ao seu carrinho ou finalizar o carrinho e ir para a pagina de compras
 
 **Primeira fatia vertical (escopo mínimo):**  
 Inclui: [uma tela], [uma ação principal], [salvar], [mostrar algo]  
