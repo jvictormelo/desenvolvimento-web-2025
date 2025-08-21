@@ -1,5 +1,4 @@
-# [Título do seu projeto]
-<!-- EXEMPLO: "AtendeAí — Fila de Ajuda em Sala" -->
+# Amor em Patinhas - site de gestão de Banho e Tosa
 
 ## 1) Problema
 <!-- Escreva o problema sem falar de telas/tecnologias.
@@ -7,17 +6,14 @@
      EXEMPLO: Em aulas práticas, alunos esperam muito para serem atendidos.
      Há filas confusas e frustração. O professor não vê ordem nem tempo de espera.
      Objetivo inicial: organizar a fila para reduzir a espera e garantir justiça. -->
-[Quem], em [contexto], tem dificuldade em [tarefa/dor].
-Isso causa [efeito mensurável].
-No início, o foco será [público principal] com o objetivo de [resultado simples].
+hoje em dia os [clientes] e o [gestor] perdem muito tempo para agendar e organizar os serviços, em mensagens no whatsapp há muito tempo de espera entre o [cliente] e o [gestor]. O [gestor] demora para verificar os planos e o calendario para novos agendamentos, O [cliente] tem dificuldade em agendar novos serviços pelo tempo de espera.
+Isso causa frustação por parte do [gestor] não conseguir organizar melhor seu caléndario e desistência por parte do [cliente] por falta de resposta.
+No início, o foco será organizar a gestão do banho e tosa com o objetivo de melhorar o sistema de agendamentos e planos.
 
 ## 2) Atores e Decisores (quem usa / quem decide)
-<!-- Liste papéis (não nomes).
-     EXEMPLO:
-     Usuários principais: Alunos da turma de Desenvolvimento Web
-     Decisores/Apoiadores: Professores da disciplina; Coordenação do curso -->
-Usuários principais: [lista]
-Decisores/Apoiadores: [lista]
+
+Usuários principais: [clientes de petshop]
+Decisores/Apoiadores: [Gestores de petshop]
 
 ## 3) Casos de uso (de forma simples)
 <!-- Formato "Ator: ações que pode fazer".
@@ -26,9 +22,9 @@ Decisores/Apoiadores: [lista]
      Todos: Logar/deslogar do sistema; Manter dados cadastrais
      Professor: Manter (inserir, mostrar, editar, remover) todos os chamados
      Aluno: Manter (inserir, mostrar, editar, remover) seus chamados -->
-Todos: [ações comuns, ex.: Logar/deslogar; Manter dados cadastrais]  
-[Ator 1]: [ações do ator 1]  
-[Ator 2]: [ações do ator 2]
+Todos: [Logar/deslogar; Manter dados cadastrais]  
+Gestor: Manter (inserir, mostrar, editar, remover) serviços (Banho, Tosa e planos(semanais e mensais))
+Clientes: Manter (inserir, mostrar, editar, remover) seus dados cadastrais
 
 ## 4) Limites e suposições
 <!-- Simples assim:
