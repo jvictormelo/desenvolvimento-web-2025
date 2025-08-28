@@ -62,7 +62,7 @@ Critérios de aceite:
 [Links ou imagens dos seus rascunhos de telas aqui]
 # Teste de imagem
 
-![Exemplo de imagem](images/fotoPro.png)
+![Exemplo de imagem](images/Group41369.png)
 
 
 ## 8) Tecnologias
