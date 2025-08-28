@@ -56,8 +56,8 @@ No início, o foco será organizar a gestão do banho e tosa com o objetivo de m
 **Primeira fatia vertical (escopo mínimo):**  
 Inclui: uma tela para escolha de serviços, escolher o plano desejado, armazenar o serviço no carrinho, mostrar o Serviço escolhido  
 Critérios de aceite:
-- [Condição 1 bem objetiva]
-- [Condição 2 bem objetiva]
+- [escolha do serviço - aparece no carrinho com o valor]
+- [finalizar compras - leva o cliente para a aba de pagamento]
 
 ## 7) Esboços de algumas telas (wireframes)
 <!-- Vale desenho no papel (foto), Figma, Excalidraw, etc. Não precisa ser bonito, precisa ser claro.
@@ -105,20 +105,20 @@ Critérios de aceite:
 | Campo           | Tipo                          | Obrigatório | Exemplo            |
 |-----------------|-------------------------------|-------------|--------------------|
 | id              | número                        | sim         | 1                  |
-| nome            | texto                         | sim         | "Ana Souza"        |
+| nome            | texto                         | sim         | "Carlinhos"        |
 | email           | texto                         | sim (único) | "ana@exemplo.com"  |
 | senha_hash      | texto                         | sim         | "$2a$10$..."       |
-| papel           | número (0=aluno, 1=professor) | sim         | 0                  |
+| tipo            | número (0=cliente, 1=gestor)  | sim         | 0                  |
 | dataCriacao     | data/hora                     | sim         | 2025-08-20 14:30   |
 | dataAtualizacao | data/hora                     | sim         | 2025-08-20 15:10   |
 
-### Chamado
+### Compra
 | Campo           | Tipo               | Obrigatório | Exemplo                 |
 |-----------------|--------------------|-------------|-------------------------|
 | id              | número             | sim         | 2                       |
 | Usuario_id      | número (fk)        | sim         | 8f3a-...                |
 | texto           | texto              | sim         | "Erro ao compilar"      |
-| estado          | char               | sim         | 'a' \| 'f'              |
+| status          | boolean            | sim         | 0                       |
 | dataCriacao     | data/hora          | sim         | 2025-08-20 14:35        |
 | dataAtualizacao | data/hora          | sim         | 2025-08-20 14:50        |
 
@@ -126,5 +126,5 @@ Critérios de aceite:
 <!-- Frases simples bastam. EXEMPLO:
      Um Usuario tem muitos Chamados (1→N).
      Um Chamado pertence a um Usuario (N→1). -->
-- Um [A] tem muitos [B]. (1→N)
-- Um [B] pertence a um [A]. (N→1)
+- Um cliente tem muitos pedidos. (1→N)
+- Um pedido pertence a um usuario. (N→1)
