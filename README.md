@@ -231,6 +231,9 @@ VALUES
 (1, 1, NULL, 1, 40.00),
 (2, NULL, 1, 1, 150.00);
 
+```
+---
+
 ## 🔧 Como rodar localmente (passo a passo)
 
 ### 1) Pré-requisitos
