@@ -136,9 +136,10 @@ Critérios de aceite:
 
 ```sql
 
+
 SET client_encoding = 'UTF8';
 
-CREATE TABLE Usuario (
+CREATE TABLE IF NOT EXISTS Usuario (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
@@ -148,7 +149,7 @@ CREATE TABLE Usuario (
     dataAtualizacao TIMESTAMP DEFAULT NOW()
 );
 
-CREATE TABLE Servico (
+CREATE TABLE IF NOT EXISTS Servico (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     descricao TEXT,
@@ -158,7 +159,7 @@ CREATE TABLE Servico (
     dataAtualizacao TIMESTAMP DEFAULT NOW()
 );
 
-CREATE TABLE Plano (
+CREATE TABLE IF NOT EXISTS Plano (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     descricao TEXT,
@@ -167,7 +168,7 @@ CREATE TABLE Plano (
     dataAtualizacao TIMESTAMP DEFAULT NOW()
 );
 
-CREATE TABLE Carrinho (
+CREATE TABLE IF NOT EXISTS Carrinho (
     id SERIAL PRIMARY KEY,
     usuario_id INT NOT NULL,
     servico_id INT,
@@ -180,7 +181,7 @@ CREATE TABLE Carrinho (
     FOREIGN KEY (plano_id) REFERENCES plano(id) ON DELETE SET NULL
 );
 
-CREATE TABLE Compras_Itens (
+CREATE TABLE IF NOT EXISTS Compras_Itens (
     id SERIAL PRIMARY KEY,
     compra_id INT NOT NULL REFERENCES Carrinho(id) ON DELETE CASCADE,
     servico_id INT REFERENCES Servico(id), 
